@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\lab_3_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B975E31-FFB5-4AB5-B9EB-E585BAE50CDD}|..\\ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9799016-A695-4F85-9359-3860E0C55F69}|lab_3_1.vcxproj|C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\lab_3_1\\lab_3_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9799016-A695-4F85-9359-3860E0C55F69}|lab_3_1.vcxproj|solutionrelative:lab_3_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab_3_1.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\lab_3_1\\lab_3_1.cpp",
+              "RelativeDocumentMoniker": "lab_3_1.cpp",
+              "ToolTip": "C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\lab_3_1\\lab_3_1.cpp",
+              "RelativeToolTip": "lab_3_1.cpp",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAqwGwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T16:31:39.413Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeDocumentMoniker": "..\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\Users\\\u0432\u043E\u043B\u044C\u0432\u043E\u043A\u0441\\Desktop\\\u043B\u0430\u0431\u044B\\Pinaev_lab_TP\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeToolTip": "..\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-26T10:34:13.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

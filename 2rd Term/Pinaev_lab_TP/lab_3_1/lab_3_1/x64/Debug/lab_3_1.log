@@ -1,0 +1,20 @@
+﻿  lab_3_1.cpp
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(22,34): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(23,30): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(24,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(30,35): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(31,31): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(32,31): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(77,42): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(87,57): warning C4244: аргумент: преобразование "int" в "_Ty", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(87,57): warning C4244:         with
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(87,57): warning C4244:         [
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(87,57): warning C4244:             _Ty=float
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(87,57): warning C4244:         ]
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(88,54): warning C4244: аргумент: преобразование "int" в "_Ty", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(88,54): warning C4244:         with
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(88,54): warning C4244:         [
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(88,54): warning C4244:             _Ty=float
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(88,54): warning C4244:         ]
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\lab_3_1.cpp(110,20): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  lab_3_1.vcxproj -> C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\x64\Debug\lab_3_1.exe

@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\ConsoleApplication1\ConsoleApplication1.cpp(121,22): warning C4244: инициализация: преобразование "const _Ty" в "int", возможна потеря данных
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\ConsoleApplication1\ConsoleApplication1.cpp(121,22): warning C4244:         with
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\ConsoleApplication1\ConsoleApplication1.cpp(121,22): warning C4244:         [
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\ConsoleApplication1\ConsoleApplication1.cpp(121,22): warning C4244:             _Ty=float
+C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\ConsoleApplication1\ConsoleApplication1.cpp(121,22): warning C4244:         ]
+  ConsoleApplication1.vcxproj -> C:\Users\вольвокс\Desktop\лабы\Pinaev_lab_TP\lab_3_1\x64\Debug\ConsoleApplication1.exe

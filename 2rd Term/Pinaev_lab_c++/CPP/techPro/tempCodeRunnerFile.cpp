@@ -1,0 +1,1 @@
+min = temp; idMi = id; cout << "sscibidi" << endl;
