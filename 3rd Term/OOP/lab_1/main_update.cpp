@@ -1,4 +1,4 @@
-// Lab_1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// Lab_1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 /*
 #include <iostream>
 #include <fstream>
@@ -112,53 +112,61 @@ private:
 
 public:
 
-    book() {
-        title = "autovaz2109";
-        page_count = 123;
-        color = "green";
-        author = "Dostoevsky";
-        year_creation = 2005;
+    book()//конструктор  со списком инициализации
+        : title{ "autovaz2109" }
+        , page_count{ 123 }
+        , color{ "green" }
+        , author{ "Dostoevsky" }
+        , year_creation{ 2005 }
+    {
+        ////////
+    }
+ 
+    book(const std::string& title_, const int page_count_, const std::string& color_, const std::string& author_, const int year_creation_) //конструктор с параметрами и со списком инициализации
+
+        :title { title_ }
+        , page_count{ page_count_ }
+        , color{ color_ }
+        , author{ author_ }
+        , year_creation{ year_creation_ }
+    {
 
     }
-    book(const std::string& title_, const int page_count_, const std::string& color_, const std::string& author_, const int year_creation_) {
 
-        title = title_;
-        page_count = page_count_;
-        color = color_;
-        author = author_;
-        year_creation = year_creation_;
-
+    ~book() {
+        //std::cout << "Here destructor" << std::endl;
     }
 
 
-    void set_title(const std::string& title_) {
-        title = title_;
+    void set_title(const std::string& title) {
+        this->title = title;
     }
     std::string get_title() const {
         return title;
     }
 
-    void set_color(const std::string& color_) {
-        color = color_;
+    void set_color(const std::string& color) {
+        this->color = color;
     }
     std::string get_color() const {
         return color;
     }
 
-    void set_author(const std::string& author_) {
-        author = author_;
+    void set_author(const std::string& author) {
+        this->author = author;
     }
     std::string get_author() const {
         return author;
     }
 
-    void set_year_creation(const int year_creation_) {
-        if (year_creation_ < 2025) {
-            std::println("Wrong year_creation");
-            //std::cout << "Wrong year_creation" << std::endl;
+    void set_year_creation(const int year_creation) {
+        if (year_creation > 2025) {
+            //std :: print("Wrong year_creation");
+            std::cout << "Wrong year_creation" << std::endl;
+            separator();
         }
         else {
-            year_creation = year_creation_;
+            this->year_creation = year_creation;
         };
     }
     int get_year_creation() const {
@@ -167,101 +175,64 @@ public:
 
     void setpage_count(const int page_count_) {
 
-        if (page_count_ < 1) {
+        if (page_count < 1) {
             std::cout << "Too little pages" << std::endl;
         }
         else {
-            page_count = page_count_;
+            this->page_count = page_count;
         };
     }
     ////////////////////////////////////////////
     void print0() const {
-        SetColor(0, 2);
         std::cout << "Title:" << title << std::endl;
-        SetColor(0, 15);
     }
     void print1() const {
-        SetColor(0, 2);
         std::cout << "Page count:" << page_count << std::endl;
-        SetColor(0, 15);
     }
     void print2() const {
-        SetColor(0, 2);
         std::cout << "Color:" << color << std::endl;
-        SetColor(0, 15);
     }
     void print3() const {
-        SetColor(0, 2);
         std::cout << "Author:" << author << std::endl;
-        SetColor(0, 15);
     }
     void print4() const {
-        SetColor(0, 2);
         std::cout << "Year creation:" << year_creation << std::endl;
-        SetColor(0, 15);
+        
     }
 };
 
 int main()
-{
-    book b1;
-    book b2;
-    std::vector<book> Book_tokens;
-    Book_tokens.push_back(b1);
-   // Book_tokens.push_back(b2);
+{   
     using std::cout;
     using std::cin;
     using std::endl;
 
-
-    book b3("Onegin", 99, "blue", "Pushkin", 1823);
-    //range-based for
-    Book_tokens.push_back(b3);
-
-    b1.set_year_creation(2026);
-    //cout << b1.get_author() << endl;
-
-    for (const auto& i : Book_tokens) {
-
-        i.print0();
-        cout << endl;
-        i.print1();
-        cout << endl;
-        i.print2();
-        cout << endl;
-        i.print3();
-        cout << endl;
-        i.print4();
-        cout << endl;
-        separator();
-    }
-    SetColor(15, 0);
-    return 0;
-}
-/*
-#include <iostream>
-#include <Windows.h>
-using namespace std;
-
-void SetColor(int text, int background)
-{
-    HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hStdOut, (WORD)((background << 4) | text));
-}
-
-int main()
-{
-    for (int i = 0; i < 15; i++)
     {
-        for (int j = 0; j < 15; j++)
-        {
-            SetColor(i, j);
-            cout << "       Hello!!!!      ";
-            SetColor(15, 0);
-            cout << "   [" << i << "][" << j << "]\n";
+        book b1;
+        b1.set_year_creation(2026);
+        //cout << b1.get_author() << endl;
+        book b2;
+        book b3("Onegin", 99, "blue", "Pushkin", 1823);
+        std::vector<book> Book_tokens;
+        Book_tokens.push_back(b1);
+        Book_tokens.push_back(b2);
+        Book_tokens.push_back(b3);
+
+        for (const auto& i : Book_tokens) {     //range-based for
+
+            i.print0();
+            cout << endl;
+            i.print1();
+            cout << endl;
+            i.print2();
+            cout << endl;
+            i.print3();
+            cout << endl;
+            i.print4();
+            cout << endl;
+            separator();
         }
+        
     }
-    system("PAUSE");
     return 0;
 }
-*/
